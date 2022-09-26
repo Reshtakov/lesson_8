@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body {
+    font-family: Lato, serif;
+    color: #424551;
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+.header__container,
+.about__container,
+.curator__container,
+.lesson__box,
+footer {
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+.header__container h1 {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 1.3;
+    color: #1E212C;
+}
+
+main {
+    line-height: 1.6;
+}
+
+.about__box {
+    margin-bottom: 114px;
+}
+
+.about__text {
+    margin-bottom: 48px;
+}
+
+.about__list h3 {
+    color: #1E212C;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+.about__list ul li {
+    margin-bottom: 4px;
+}
+
+.about__list ul li::before {
+    background: url('../img/icons/check.svg') 0 0 no-repeat;
+    content: "";
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 16px;
+}
+
+.curator__box {
+    margin-bottom: 100px;
+}
+
+.curator__title h6 {
+    font-weight: 700;
+    line-height: 1.5;
+    color: #1E212C;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.curator__title h2 {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 1.3;
+    color: #1E212C;
+}
+
+.curator__title {
+    margin-bottom: 16px;
+}
+
+.curator__subtitle {
+    margin-bottom: 32px;
+}
+
+.curator__subtitle p {
+    color: #787A80;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.curator__progress {
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.curator__progress ul li {
+    margin-bottom: 4px;
+}
+
+.curator__progress ul li:nth-child(1)::before {
+    background: url('../img/icons/rate.svg') 0 0 no-repeat;
+    content: "";
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.curator__progress ul li:nth-child(2)::before {
+    background: url('../img/icons/play.svg') 0 0 no-repeat;
+    content: "";
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.curator__progress ul li:nth-child(3)::before {
+    background: url('../img/icons/student.svg') 0 0 no-repeat;
+    content: "";
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.education__box,
+.lesson__example,
+.education__container,
+.training__box,
+.training__box ul {
+    margin-bottom: 20px;
+}
+
+.education__box:hover {
+    background-color: #ccc;
+}
+
+.lesson__example a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.lesson__example a:active {
+    color: red;
+}
+
+.lesson__example a:visited {
+    color: purple;
+}
+
+.education__container a {
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.education__container a:focus {
+    color: #c3ff00;
+}
+
+.education__text:target {
+    color: #00fffb;
+}
+
+.training__box ul li:first-child {
+    text-transform: uppercase;
+}
+
+.training__box ul li:not(:last-child)::before {
+    background: url('../img/icons/check.svg') 0 0 no-repeat;
+    content: "";
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 16px;
+}
+
+.training__box p:first-of-type {
+    margin-bottom: 20px;
+}
+
+.training__box p:last-child {
+    color: pink;
+}
+
+.training__container p:last-of-type {
+    color: royalblue;
+}
+
+.training__container li:nth-child(odd) {
+    background-color: #ccc;
+}
+
+.training__container li:last-child::after {
+    content: ">>>";
+    color: red;
+}
+
+footer {
+    font-size: 30px;
+    text-align: center;
+}
